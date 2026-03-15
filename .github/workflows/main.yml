@@ -14,7 +14,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install -r exp 2/requirement.txt
+        run: pip install -r exp2/requirement.txt
  
       - name: run training script
-        run: python exp 2/train.py
+        run: python exp2/train.py
